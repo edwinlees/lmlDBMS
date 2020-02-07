@@ -82,8 +82,8 @@
 
 	16.查询
 		select *|field from tableName[,tableName] [where子句];
-			例如：select stu.name, class.name from stu,class where stu.Cid = class.id
-															and stu.name = liming;
+			例如：select stu.name, class.name from stu,class where stu.Cid = class.id and stu.name = liming;
+															
 		(1) 实现可选投影查询，可以选出自己想要的任意表的属性，*表示所有属性
 		(2) 实现多关系等值连接查询，需在where子句中给出连接的条件
 		(3) 实现and多条件查询，可以通过and来增加查询条件
